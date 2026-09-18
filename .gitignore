@@ -1,0 +1,22 @@
+# ===== 密钥与配置（绝不上传）=====
+# .env 以后用来存数据库等敏感配置（Day 23 会用到），必须被忽略
+.env
+.env.*
+*.pem
+*.key
+
+# ===== 依赖与构建产物 =====
+node_modules/
+dist/
+build/
+
+# ===== 编辑器与系统文件 =====
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== 日志 =====
+*.log
+npm-debug.log*
